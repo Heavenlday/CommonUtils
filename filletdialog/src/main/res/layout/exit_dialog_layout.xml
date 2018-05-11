@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/exit_shape"
+    >
+    <TextView
+        android:id="@+id/tv_tips"
+        android:gravity="center"
+        android:textColor="#808080"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+    <TextView
+        android:background="#ededed"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="60dp">
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_weight="1"
+            android:text="取消"
+            android:textColor="#666666"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:background="#ededed"
+            android:layout_width="1dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_exit"
+            android:layout_weight="1"
+            android:text="确定"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="#409bf5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>
